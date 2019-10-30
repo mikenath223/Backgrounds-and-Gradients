@@ -15,7 +15,7 @@ a {
   align-items: center;
   height: 500px;
   vertical-align: middle;
-  background: url(/Backgrounds-and-Gradients/images/background1.jpg) 35% 90%;
+  background: url(../images/background1.jpg) 35% 90%;
 }
 
 .top-section h1,
@@ -26,7 +26,7 @@ h2 {
 
 .play {
   width: 75%;
-  background: url(/Backgrounds-and-Gradients/images/play-button.png) 100% 0 no-repeat;
+  background: url(../images/play-button.png) 100% 0 no-repeat;
 }
 
 .nav-input-wrap {
@@ -50,14 +50,14 @@ h2 {
 }
 
 .nav-bar-image {
-  background: center url(/Backgrounds-and-Gradients/images/apple-logo.png) no-repeat;
+  background: center url(../images/apple-logo.png) no-repeat;
 }
 
 input[type="search"] {
   width: 80%;
   margin-top: 8px;
   border-radius: 15px;
-  background: url(/Backgrounds-and-Gradients/images/magnifying-glass.png) 10% no-repeat;
+  background: url(../images/magnifying-glass.png) 10% no-repeat;
 }
 
 .image-tile {
@@ -69,26 +69,26 @@ input[type="search"] {
   height: 220px;
 }
 
-.image-tile h1:nth-child(1) {
-  background: url(/Backgrounds-and-Gradients/images/background2.jpg) center no-repeat;
+.first {
+  background: url(../images/background2.jpg) center no-repeat;
 }
 
-.image-tile div:nth-child(2) {
-  background: url(/Backgrounds-and-Gradients/images/background3.jpg) center no-repeat;
+.second {
+  background: url(../images/background3.jpg) center no-repeat;
 }
 
-.image-tile div:nth-child(3) {
-  background: url(/Backgrounds-and-Gradients/images/background4.jpg) center no-repeat;
+.third {
+  background: url(../images/background4.jpg) center no-repeat;
 }
 
-.image-tile div:nth-child(4) {
-  background: url(/Backgrounds-and-Gradients/images/background5.jpg) center no-repeat;
+.fourth {
+  background: url(../images/background5.jpg) center no-repeat;
 }
 
 .nav a:last-child {
   display: inline-block;
   width: 90px;
-  background: url(/Backgrounds-and-Gradients/images/usa-background.png) 100% no-repeat;
+  background: url(../images/usa-background.png) 100% no-repeat;
 }
 
 .foot {
