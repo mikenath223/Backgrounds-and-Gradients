@@ -1,7 +1,7 @@
 # Backgrounds-and-Gradients
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
+
 
 # View Demo
 https://mikenath223.github.io/Backgrounds-and-Gradients/
