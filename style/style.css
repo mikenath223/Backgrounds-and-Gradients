@@ -64,12 +64,12 @@ input[type="search"] {
   display: flex;
 }
 
-.image-tile div {
+.image-tile * {
   width: 100%;
   height: 220px;
 }
 
-.image-tile div:nth-child(1) {
+.image-tile h1:nth-child(1) {
   background: url(/Backgrounds-and-Gradients/images/background2.jpg) center no-repeat;
 }
 
