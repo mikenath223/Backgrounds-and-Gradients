@@ -2,8 +2,6 @@
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
-[![Pull-requests][pull-requests-shield]][pull-requests-url]
-[![Forks][forks-shield][forks-url]]
 
 # View Demo
 https://mikenath223.github.io/Backgrounds-and-Gradients/
