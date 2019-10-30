@@ -1,10 +1,19 @@
-* {border: 1px solid red}
-** {border: 1px solid red}
+* {
+  border: 1px solid red
+}
+
+** {
+  border: 1px solid red
+}
 
 main {
   display: grid;
   grid-template-rows: 10fr 4fr 2fr;
-  height: 700px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
 }
 
 .top-section {
@@ -17,9 +26,14 @@ main {
   background: url(/Backgrounds-and-Gradients/images/background1.jpg) 35% 90%;
 }
 
-.top-section h1 {
+.top-section h1, h2 {
   height: 15%;
   color: #fff;
+}
+
+.play {
+  width: 75%;
+  background: url(/Backgrounds-and-Gradients/images/play-button.png) 100% 0 no-repeat;
 }
 
 .nav-input-wrap {
@@ -31,13 +45,17 @@ main {
   display: flex;
   width: 90%;
   border-radius: 15px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .1)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .3))), 
+              -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .8)), color-stop(0.003, rgba(0, 0, 0, 0.25)), color-stop(0.998, rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, .25))) no-repeat 50% 50%, 
+              -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #979292), to(#979292));
 }
 
 .nav-bar button {
   width: 12%;
-  height: 50px;
+  height: 40px;
   border: 1px solid silver;
   background: transparent;
+  color: #fff;
 }
 
 .nav-bar-image {
@@ -46,7 +64,46 @@ main {
 
 input[type="search"] {
   width: 80%;
-  margin-top: 10px;
+  margin-top: 8px;
+  border-radius: 15px;
   background-color: transparent;
-  background: url(/Backgrounds-and-Gradients/images/);
+  background: url(/Backgrounds-and-Gradients/images/magnifying-glass.png) 10% no-repeat;
+}
+
+.image-tile {
+  display: flex;
+}
+
+.image-tile div {
+  width: 100%;
+  height: 220px;
+}
+
+.image-tile div:nth-child(1) {
+  background: url(/Backgrounds-and-Gradients/images/background2.jpg) center no-repeat;
+}
+
+.image-tile div:nth-child(2) {
+  background: url(/Backgrounds-and-Gradients/images/background3.jpg) center no-repeat;
+}
+
+.image-tile div:nth-child(3) {
+  background: url(/Backgrounds-and-Gradients/images/background4.jpg) center no-repeat;
+}
+
+.image-tile div:nth-child(4) {
+  background: url(/Backgrounds-and-Gradients/images/background5.jpg) center no-repeat;
+}
+
+.nav a:last-child {
+  display: inline-block;
+  width: 90px;
+  background: url(/Backgrounds-and-Gradients/images/usa-background.png) 100% no-repeat;
+}
+
+.foot {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  height: 100px;
+  width: 100%;
 }
