@@ -1,6 +1,4 @@
 # Backgrounds-and-Gradients
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
 <br/>
 # View Demo
 https://mikenath223.github.io/Backgrounds-and-Gradients/
@@ -26,3 +24,6 @@ This project involved the implementatiion of backgrounds and gradients in CSS3 t
 ## Contact
 Ukeje Michgolden :man: - [Github profile](https://github.com/mikenath223)
 
+## Screenshot
+
+![Apple com Clone  Project Backgrounds and Gradients  - Google Chrome 30_10_2019 10_08_13 PM](https://user-images.githubusercontent.com/33323077/67899146-fa39c400-fb61-11e9-9a0e-3a69922d88b4.png)
