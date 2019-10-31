@@ -1,7 +1,6 @@
 main {
   display: grid;
   grid-template-rows: 10fr 4fr 2fr;
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -22,7 +21,7 @@ a {
 
 .top-section h1,
 h2 {
-  height: 15%;
+  height: 3%;
   color: #fff;
   font-weight: 300;
 }
@@ -110,5 +109,6 @@ input[type="search"] {
   display: grid;
   grid-template: repeat(2, 1fr)/repeat(2, 1fr);
   height: 100px;
-  width: 100%;
+  width: 80%;
+  margin: 20px auto;
 }
