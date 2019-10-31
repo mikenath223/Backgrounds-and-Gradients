@@ -45,8 +45,17 @@ h2 {
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.1)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.8)), color-stop(0.003, rgba(0, 0, 0, 0.25)), color-stop(0.998, rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #979292), to(#979292));
 }
 
+.image-tile * {
+  width: 100%;
+  height: 220px;
+}
+
 .nav-bar *:hover {
   background-color: rgb(85, 84, 84);
+}
+
+.nav-bar > .nav-bar-image {
+  background: url(../images/apple-logo.png) center center no-repeat;
 }
 
 .nav-bar > .nav-bar-image:hover {
@@ -61,27 +70,18 @@ h2 {
   color: #fff;
 }
 
-.nav-bar > .nav-bar-image {
-  background: url(../images/apple-logo.png) center center no-repeat;
-}
-
 input[type="search"] {
   width: 80%;
   margin-top: 10px;
   border-radius: 15px;
   border: none;
-  border: 1px solid gray;  
+  border: 1px solid gray;
   background: gray url(../images/magnifying-glass.png) 10% no-repeat;
 }
 
 .image-tile {
   display: flex;
   margin-top: -10px;
-}
-
-.image-tile * {
-  width: 100%;
-  height: 220px;
 }
 
 .first {
