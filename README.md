@@ -16,13 +16,19 @@ This project involved the implementatiion of backgrounds and gradients in CSS3 t
 </p>
 <h2 align="center">Tools and Technologies Used<h2>
  <ul>
-  <li>HTML5 : for semantic markup</li>
-  <li>CSS3 :for styling</li>
+  <li>HTML : for semantic markup</li>
+  <li>CSS :for styling</li>
   <li>Linter and Stickler :for validation</li>
  </ul>
 
-## Contact
-Ukeje Michgolden :man: - [Github profile](https://github.com/mikenath223)
+## Author
+**Michgolden Ukeje**
+
+- Github: [@mikenath223](https://github.com/mikenath223)
+- Twitter: [@Michgolden_Nath](https://twitter.com/MichgoldenU)
+- Linkedin: [Ukeje Michgolden](https://https://www.linkedin.com/in/michgoldenukeje/)
+  <br />
+
 
 ## Screenshot
 
